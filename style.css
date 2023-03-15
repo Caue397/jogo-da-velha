@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form {
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#playerForm {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#tic-tac-toe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+#keys {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 800px;
+}
+
+#keys button {
+  background-color: transparent;
+  height: 130px;
+  font-size: 90px;
+}
+
+#keys button.win {
+  background-color: green;
+}
+
+.topBorder {
+  border-top: none;
+}
+
+.bottomBorder {
+  border-bottom: none;
+}
+
+.leftBorder {
+  border-left: none;
+}
+
+.rightBorder {
+  border-right: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
